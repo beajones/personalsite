@@ -1,11 +1,20 @@
+@font-face {
+    font-family: Chokle;
+    src: url("../fonts/Chokle.woff") format("woff"), url("../fonts/Chokle.ttf")  format("truetype");
+}
+
 body {
 	background-image: url("../images/background.jpg");
 	background-size: 100% 200%;
 	background-repeat: no-repeat;
 }
 
-.jumbotron > p {
+.jumbotron p {
 	text-align: right;
+}
+.jumbotron h1 {
+	font-family: Chokle;
+	font-size: 100px;
 }
 
 /* centering navbar items */
