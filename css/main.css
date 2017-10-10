@@ -69,6 +69,7 @@ body h2 {
 }
 
 
+/* individual information cards */
 .info-card {
 	background-color: rgb(255,255,255);
 	color: #4A5F70;
@@ -79,6 +80,17 @@ body h2 {
 }
 .info-card h2 {
 	font-size: 32pt;
+}
+.info-card li {
+	font-size: 16pt;
+	font-weight: lighter;
+	color: black;
+}
+.li-icon {
+	width: 25px;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-bottom: 10px;
 }
 
 #experience {
