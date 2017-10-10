@@ -93,6 +93,10 @@ body h2 {
 	margin-bottom: 10px;
 }
 
+.li-button {
+	margin-left: 20px;
+}
+
 #experience {
 	text-align: right;
 	border-radius: 30px 10px !important;
