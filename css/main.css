@@ -1,3 +1,4 @@
+/* adding fonts */
 @font-face {
     font-family: Chokle;
     src: url("../fonts/Chokle.woff") format("woff"), url("../fonts/Chokle.ttf")  format("truetype");
@@ -12,16 +13,23 @@
 }
 
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/bluesprinkles.jpg");
 	background-size: 100% 200%;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
+body h2 {
+	font-family: KingslandItalic;
+}
+
+/* adjusting jumbotron */
 
 .jumbotron p {
 	text-align: right;
 }
 .jumbotron h1 {
 	font-family: KingslandItalic;
+}
+#name-section {
 }
 
 /* centering navbar items */
