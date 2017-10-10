@@ -30,10 +30,18 @@ body h2 {
 	font-family: KingslandItalic;
 }
 #name-section {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgb(255, 255, 255);
 	color: #4A5F70;
-/*	color: rgb(255, 255, 255);*/
+/*	z-index: -1;*/
 }
+/*#name-section img {
+	position: absolute;
+    left: 0px;
+    top: -170px;
+    width: 45%;
+    z-index: 1;
+}*/
+
 
 /* centering navbar items */
 .navbar .navbar-nav {
@@ -47,10 +55,35 @@ body h2 {
 .navbar-nav > li {
 	padding-left:40px;
  	padding-right:40px;
+	color: #4A5F70;
+}
+
+#navbar-section {
+	position: sticky;
+	background-color: rgb(255,255,255);
+}
+
+.mdc-elevation--z1 {
+    -webkit-box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 
+.info-card {
+	background-color: rgb(255,255,255);
+	color: #4A5F70;
+	border-radius: 10px 30px;
+	margin-bottom: 20px;
+	padding-top: 10px; 
+	padding-bottom: 20px;
+}
+.info-card h2 {
+	font-size: 32pt;
+}
 
 #experience {
 	text-align: right;
+	border-radius: 30px 10px !important;
 }
+
+

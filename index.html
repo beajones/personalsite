@@ -14,8 +14,8 @@
 
 <body>
 	<div class="container">
-		<div class="jumbotron" id="name-section">
-			<h1>Beatrix Jones</h1>
+		<div class="jumbotron mdc-elevation--z1" id="name-section">
+				<h1>Beatrix Jones</h1>
 			<p> I am a student at Vassar College exploring all 
 			that it means to be a software engineer. </p> 
 		</div>
@@ -23,7 +23,7 @@
 
 	<!-- navbar -->
 	<div class="container">
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default mdc-elevation--z1" id="navbar-section">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<!-- <div class="navbar-header">
@@ -33,7 +33,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -48,9 +48,8 @@
 	<div class="container">
 		<!--  3 rows of two columns each -->
 		<!-- skills row -->
-		<div class="well">
 		<div class="row" id="skills">
-			<div class="col-md-6">
+			<div class="col-md-7 mdc-elevation--z1 info-card">
 				<h2>Skills</h2>
 				<h3> Programming: </h3>
 				<ul>
@@ -67,15 +66,15 @@
 				</ul>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 			</div>
 		</div>
 		
 		<!-- experience row -->
-		<div class="row" id="experience">
-			<div class="col-md-6">
+		<div class="row">
+			<div class="col-md-5">
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-7 mdc-elevation--z1 info-card" id="experience">
 				<h2>Experience</h2>
 				<p> KWK, Digital Initiatives, ABI Scholar </p>
 			<!-- Trigger the modal with a button -->
@@ -101,16 +100,15 @@
 		</div>
 		<!-- contact row -->
 		<div class="row" id="contact">
-			<div class="col-md-6">
+			<div class="col-md-7 mdc-elevation--z1 info-card">
 				<h2>Contact</h2>
 				<p> email, twitter, linkedin </p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 			</div>
 		</div>
 
-		</div> <!-- end well -->
 
 		<footer>
 		<p>&copy; 2017 Beatrix Jones</p>
