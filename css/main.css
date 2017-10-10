@@ -3,3 +3,24 @@ body {
 	background-size: 100% 200%;
 	background-repeat: no-repeat;
 }
+
+/* centering navbar items */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li {
+	padding-left:30px;
+ 	padding-right:30px;
+}
+
+
+
+#experience {
+	text-align: right;
+}
