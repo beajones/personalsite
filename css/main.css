@@ -4,6 +4,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.jumbotron > p {
+	text-align: right;
+}
+
 /* centering navbar items */
 .navbar .navbar-nav {
   display: inline-block;
@@ -13,10 +17,9 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
-
 .navbar-nav > li {
-	padding-left:30px;
- 	padding-right:30px;
+	padding-left:40px;
+ 	padding-right:40px;
 }
 
 
